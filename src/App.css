@@ -9,6 +9,7 @@ button:hover{
   color: white;
   background-color: rgb(195, 217, 195);
   border: 2px dotted gray;
+  visibility: visible;
 
 }
 div{

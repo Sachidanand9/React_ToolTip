@@ -4,12 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-         <button data-tip data-for="hoverTips">
-           Hover over me!
-         </button>
-         <ReactTooltip id="hoverTips" place='right' effect="solid">
-          Thanks for hovering! i'm a Tooltip
-         </ReactTooltip>
+        <button data-for = "tool" data-tip="Thanks for hover over me <br/> i'm Tooltip!">Hover over me!</button>
+        <ReactTooltip place='right' id='tool' effect='solid' multiline={true} />
     </div>
   );
 }
