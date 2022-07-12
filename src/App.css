@@ -14,7 +14,10 @@ button:hover{
 .App {
   font-family: sans-serif;
   text-align: center;
-
-  margin-top: 100px;
-  height: 200px;
+  margin-top: 50px;
+  height:auto;
+}
+h1{
+  color: goldenrod;
+  background-color: antiquewhite;
 }

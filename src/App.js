@@ -1,13 +1,15 @@
-import ReactTooltip from 'react-tooltip'
+import ReactTooltip from './ReactTooltip';
 import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-        <button data-for = "tool" data-tip="Thanks for hover over me <br/> i'm Tooltip!">Hover over me!</button>
-        <ReactTooltip place="right" id="tool" type="dark" effect="solid" multiline={true}/>
-    </div>
+    <h1>Tooltip Demo</h1>
+    <ReactTooltip content="Thanks for hovering! I am a tooltip" direction="right">
+      <button className="button">Hover Over me</button>
+    </ReactTooltip>
+  </div>
   );
 }
 
