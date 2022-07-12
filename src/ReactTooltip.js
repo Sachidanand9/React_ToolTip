@@ -3,18 +3,18 @@ import "./ReactTooltip.css";
 function ReactTooltip(props){
   //useState hook for active variable
   const [active, setActive] = useState(false);
-  // function for showTooltip
+  // Function for showTooltip
   function showTooltip() {
     setActive(true);
   }
-  // function for hideTooltip
+  // Function for hideTooltip
   function hideTooltip() {
     setActive(false);
   }
   return (
     <div
       className="Wrapper"
-      // events for the tooltip
+      //Events for the tooltip
       onMouseEnter={showTooltip}
       onMouseLeave={hideTooltip}
     >
