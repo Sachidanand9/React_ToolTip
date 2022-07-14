@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
     <h1>Tooltip Demo</h1>
-    <ReactTooltip content="Thanks for hovering! I am a tooltip" direction="right">
+    <ReactTooltip content="Thanks for hovering! I'm a tooltip" direction="right">
       <button className="button">Hover Over me</button>
     </ReactTooltip>
   </div>

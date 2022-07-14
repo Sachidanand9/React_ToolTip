@@ -17,12 +17,13 @@
     transform: translateX(-50%);
     padding: 6px;
     font-size: 1rem;
-    background-color: white;
+    color: white;
+    background-color: black;
     border: 1px solid black;
     font-family: sans-serif;
-    line-height: 2;
+    line-height: 1;
     z-index: 100;
-    white-space: nowrap;
+    width: 200px;
   }
   /* Styling for the arrow  */
   .Tooltip-Tip::before {
@@ -33,6 +34,7 @@
     width: 0;
     position: absolute;
     pointer-events: none;
+    color: black;
     border-width: var(--tooltip-arrow-size);
     margin-left: calc(var(--tooltip-arrow-size) * -1);
   }
